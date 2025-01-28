@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网页信件</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>亲爱的你：</h1>
+        <p>见字如面。这是一封来自远方的信，希望它能带给你一丝温暖和慰藉。在这个快节奏的时代，我们常常忙碌于生活，忽略了内心深处的情感。但请相信，无论你身在何处，总有人在默默地关心着你，为你祈祷，为你祝福。</p>
+        <p>愿你在未来的日子里，能够勇敢地追求自己的梦想，不畏艰难险阻，不惧风雨飘摇。愿你的心灵永远充满阳光，即使在黑暗中也能找到前行的方向。愿你的生活充满欢声笑语，与家人、朋友共享美好时光。</p>
+        <p>最后，送上一首《异乡人》，希望它能陪伴你在异乡的每一个夜晚，给你带来一丝慰藉和力量。愿你早日回到温暖的家，与亲人团聚。</p>
+        <p>永远爱你的，[你的名字]</p>
+    </div>
+    <audio id="bgmusic" src="https://example.com/path/to/异乡人.mp3" loop="true" autoplay></audio>
+</body>
+</html>
